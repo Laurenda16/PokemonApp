@@ -8,7 +8,7 @@ export const POKEMONS: Pokemon[] =
     hp:25,
     cp:5,
     picture:"https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png",
-    types:["Plante","poison"],
+    types:["feu","poison"],
     created: new Date()
 },
 {
@@ -56,7 +56,7 @@ export const POKEMONS: Pokemon[] =
     hp:25,
     cp:5,
     picture:"https://assets.pokemon.com/assets/cms2/img/pokedex/full/366.png",
-    types:["Normal"],
+    types:["Eau"],
     created: new Date()
 },
 {
@@ -93,7 +93,7 @@ export const POKEMONS: Pokemon[] =
     cp:5,
    
     picture:"https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png",
-    types:["Plante","poison"],
+    types:["Plante","Electric"],
     created: new Date()
 },
 {
@@ -103,7 +103,7 @@ export const POKEMONS: Pokemon[] =
     cp:5,
  
     picture:"https://assets.pokemon.com/assets/cms2/img/pokedex/full/382.png",
-    types:["Plante","poison"],
+    types:["Combat","Fee"],
     created: new Date()
 },
 {
@@ -111,9 +111,8 @@ export const POKEMONS: Pokemon[] =
     name:"Pikatu",
     hp:25,
     cp:5,
-  
     picture:"https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png",
-    types:["Plante","poison"],
+    types:["Air","poison"],
     created: new Date()
 },
 {
@@ -122,7 +121,7 @@ export const POKEMONS: Pokemon[] =
     hp:25,
     cp:5,
     picture:"https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png",
-    types:["Plante","poison"],
+    types:["Plante"],
     created: new Date()
 },
 

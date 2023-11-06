@@ -5,19 +5,22 @@
 <p>{{pokemonList[11].name}}</p>
 <p>{{pokemonList[12].name}}</p>
 -->
+
 <h1 class="center">Liste des Pokemons</h1>
 <div class="container">
     <div class="row">
         <div *ngFor="let pokemon of pokemonList" class="col m4 s6">
-            <div class="card horizontal">
+            <div class="card horizontal"  (click)="selectPokemon('pokemon') "  pkmnBorderCard="red">
                 <div class="card-image">
                     <img [src]="pokemon.picture" alt="">
                 </div>
                 <div class="card-stacked">
                     <div class="card-conten">
                         <p>{{ pokemon.name }}</p>
-                        <p><small>{{ pokemon.created}}</small></p>
-                        
+                        <p><small>{{ pokemon.created | date:"dd/MM/yyyy" }}</small></p>
+                        <span *ngFor="let type of pokemon.types " class=" {{type | pokemonTypeColor}}">
+                            {{type}}
+                        </span>
                     </div>
     
                 </div>
