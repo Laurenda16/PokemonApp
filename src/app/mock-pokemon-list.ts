@@ -4,10 +4,10 @@ export const POKEMONS: Pokemon[] =
 [
 {
     id:1,
-    name:"Bulbizzare",
+    name:"Charmander",
     hp:25,
     cp:5,
-    picture:"htpps//assets.pokemons.com/asesset/cms2/img/pokedex",
+    picture:"https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png",
     types:["Plante","poison"],
     created: new Date()
 },
@@ -17,7 +17,7 @@ export const POKEMONS: Pokemon[] =
     hp:28,
     cp:6,
  
-    picture:"htpps//assets.pokemons.com/asesset/cms2/img/pokedex",
+    picture:"https://assets.pokemon.com/assets/cms2/img/pokedex/full/356.png",
     types:["Plante","poison"],
     created: new Date()
 },
@@ -27,7 +27,7 @@ export const POKEMONS: Pokemon[] =
     hp:21,
     cp:4,
  
-    picture:"htpps//assets.pokemons.com/asesset/cms2/img/pokedex",
+    picture:"https://assets.pokemon.com/assets/cms2/img/pokedex/full/357.png",
     types:["Eau"],
     created: new Date()
 },
@@ -37,25 +37,25 @@ export const POKEMONS: Pokemon[] =
     hp:16,
     cp:2,
   
-    picture:"htpps//assets.pokemons.com/asesset/cms2/img/pokedex",
+    picture:"https://assets.pokemon.com/assets/cms2/img/pokedex/full/359.png",
     types:["Plante","poison"],
     created: new Date()
 },
 {
     id:5,
-    name:"Roucoo",
+    name:"Bagon",
     hp:25,
     cp:5,
-    picture:"htpps//assets.pokemons.com/asesset/cms2/img/pokedex",
+    picture:"https://assets.pokemon.com/assets/cms2/img/pokedex/full/371.png",
     types:["Inspecte","poison"],
     created: new Date()
 },
 {
     id:6,
-    name:"Rotaa",
+    name:"Clamperl",
     hp:25,
     cp:5,
-    picture:"htpps//assets.pokemons.com/asesset/cms2/img/pokedex",
+    picture:"https://assets.pokemon.com/assets/cms2/img/pokedex/full/366.png",
     types:["Normal"],
     created: new Date()
 },
@@ -64,64 +64,64 @@ export const POKEMONS: Pokemon[] =
     name:"Bulbizzare",
     hp:14,
     cp:5,
-    picture:"htpps//assets.pokemons.com/asesset/cms2/img/pokedex",
+    picture:"https://assets.pokemon.com/assets/cms2/img/pokedex/full/364.png",
     types:["Plante","poison"],
     created: new Date()
 },
 {
     id:8,
-    name:"Bulbizzare",
+    name:"Salamence",
     hp:25,
     cp:5,
-    picture:"htpps//assets.pokemons.com/asesset/cms2/img/pokedex",
+    picture:"https://assets.pokemon.com/assets/cms2/img/pokedex/full/373.png",
     types:["Plante","poison"],
     created: new Date()
 },
 {
     id:9,
-    name:"plafobec",
+    name:"Regirock",
     hp:25,
     cp:5,
-    picture:"htpps//assets.pokemons.com/asesset/cms2/img/pokedex",
+    picture:"https://assets.pokemon.com/assets/cms2/img/pokedex/full/377.png",
     types:["Plante","poison"],
     created: new Date()
 },
 {
     id:10,
-    name:"Abo",
+    name:"Caterpie",
     hp:25,
     cp:5,
    
-    picture:"htpps//assets.pokemons.com/asesset/cms2/img/pokedex",
+    picture:"https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png",
     types:["Plante","poison"],
     created: new Date()
 },
 {
     id:11,
-    name:"Pikatu",
+    name:"Kyogre",
     hp:25,
     cp:5,
  
-    picture:"htpps//assets.pokemons.com/asesset/cms2/img/pokedex",
+    picture:"https://assets.pokemon.com/assets/cms2/img/pokedex/full/382.png",
     types:["Plante","poison"],
     created: new Date()
 },
 {
     id:12,
-    name:"Melophe",
+    name:"Pikatu",
     hp:25,
     cp:5,
   
-    picture:"htpps//assets.pokemons.com/asesset/cms2/img/pokedex",
+    picture:"https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png",
     types:["Plante","poison"],
     created: new Date()
 },
 {
     id:13,
-    name:"Groupix",
+    name:"Yvisaur",
     hp:25,
     cp:5,
-    picture:"htpps//assets.pokemons.com/asesset/cms2/img/pokedex",
+    picture:"https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png",
     types:["Plante","poison"],
     created: new Date()
 },
