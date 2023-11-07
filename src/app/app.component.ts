@@ -8,7 +8,7 @@ import { Pokemon } from './pokemon';
 
 
 })
-export class AppComponent  implements OnInit{
+export class AppComponent{
 
   pokemonList: Pokemon[] = POKEMONS;
   pokemonSelected: Pokemon |undefined ;
@@ -25,7 +25,7 @@ export class AppComponent  implements OnInit{
   
   selectPokemon(pokemonId: string)
   {
-   const id = +pokemonId;
+  
    const pokemon: Pokemon |undefined = this.pokemonList.find(pokemon=> pokemon.id == +pokemonId);
    if(pokemon)
    {
