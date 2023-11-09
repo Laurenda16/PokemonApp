@@ -10,6 +10,4 @@ import { POKEMONS } from '../mock-pokemon-list';
 export class ListPokemonComponent  {
   pokemonList: Pokemon[] = POKEMONS;
   constructor() { }
-
-
 }
