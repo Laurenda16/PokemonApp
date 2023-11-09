@@ -8,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DetailPokemonComponent implements OnInit {
 
-  constructor() { }
+  constructor (private router: Router) {
+
+   }
 
   ngOnInit(): void {
   }

@@ -1,6 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component,  } from '@angular/core';
+/*** 
 import { POKEMONS } from './mock-pokemon-list';
-import { Pokemon } from './pokemon';
+import { Pokemon } from './pokemon';*/
 
 @Component({
   selector: 'app-root',
@@ -9,12 +10,12 @@ import { Pokemon } from './pokemon';
 
 })
 export class AppComponent{
-
+/*
   pokemonList: Pokemon[] = POKEMONS;
   pokemonSelected: Pokemon |undefined ;
-  
+  */
 
-  
+  /*
 //methode qui affiche une fois l'application ouvert
   ngOnInit(): void {
 
@@ -36,7 +37,8 @@ export class AppComponent{
     console.log(`vous avez demander un pokemon qui n'existe pas`);
     this.pokemonSelected = pokemon;
    }
+  
 
-  }
+  } */
 
 }
